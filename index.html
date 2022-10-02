@@ -1,46 +1,291 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <!-- Meta Data -->
-  <meta charset="UTF-8">
-  <meta http-equiv="refresh" content="60">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="title" content="Global News" />
-  <meta name="author" content="Ndriçim Lahu" />
+<html lang="zxx">
+  <head>
+    <!-- Meta Data -->
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="refresh" content="60"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="title" content="Global News" />
+    <meta name="description" content="Global News is the best source of news, entertainment, technology website. We
+    provide you with the latest breaking news straight from the entertainment industry." />
+    <meta name="author" content="Ndriçim Lahu" />
 
-  <title>Global News | Home</title>
+    <title>Global News | Home</title>
 
-  <!-- Favicons -->
-  <link href="./assets/favicon/android-chrome-192x192.png" rel="android-chrome-icon" />
-  <link href="./assets/favicon/android-chrome-512x512.png" rel="android-chrome-icon" />
-  <link href="./assets/favicon/apple-touch-icon.png" rel="apple-touch-icon" />
-  <link href="./assets/favicon/favicon-16x16.png" rel="icon" />
-  <link href="./assets/favicon/favicon-32x32.png" rel="icon" />
-  <link href="./assets/favicon/favicon.ico" rel="icon" />
+    <!-- Favicon Pack -->
+    <link href="./assets/favicon/android-chrome-192x192.png" rel="android-chrome-icon" />
+    <link href="./assets/favicon/android-chrome-512x512.png" rel="android-chrome-icon" />
+    <link href="./assets/favicon/apple-touch-icon.png" rel="apple-touch-icon" />
+    <link href="./assets/favicon/favicon-16x16.png" rel="icon" />
+    <link href="./assets/favicon/favicon-32x32.png" rel="icon" />
+    <link href="./assets/favicon/favicon.ico" rel="icon" />
 
-  <!-- Icon Pack -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" rel="stylesheet">
-  <script src="https://use.fontawesome.com/releases/v6.2.0/js/all.js"></script>
+    <!-- Icon Pack -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" rel="stylesheet">
 
-  <!-- Font Pack -->
-  <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:100;300;400;500;700;800;900" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:400;500;600;700;800;900" rel="stylesheet">
+    <!-- Font Pack -->
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:100;300;400;500;700;800;900" rel="stylesheet">
 
-  <!-- CSS -->
-  <link href="./css/main.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="./css/style.css" rel="stylesheet">
 
-  <!-- Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Plugin CSS -->
+    <link href="./vendors/mdi/css/materialdesignicons.min.css" rel="stylesheet">
+    <link href="./vendors/aos/dist/aos.css/aos.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container-scroller">
+      <div class="main-panel">
+        <header id="header">
+          <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+              <div class="navbar-top">
+                <div class="d-flex justify-content-between align-items-center">
+                  <ul class="navbar-top-left-menu">
+                    <li class="nav-item">
+                      <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="./pages/about-us.html" class="nav-link">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="./pages/contact-us.html" class="nav-link">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="./pages/index-inner.html" class="nav-link">Write for Us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="./pages/404.html" class="nav-link">In the Press</a>
+                    </li>
+                  </ul>
+                  <ul class="navbar-top-right-menu social-media">
+                    <li>
+                      <a href="https://facebook.com" target="_blank">
+                        <i class="mdi mdi-facebook"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://instagram.com" target="_blank">
+                        <i class="mdi mdi-instagram"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://twitter.com" target="_blank">
+                        <i class="mdi mdi-twitter"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="navbar-bottom">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div>
+                    <a href="index.html" class="navbar-brand">
+                      <img src="./assets/website-logo.png" alt="Logo"> Global News
+                    </a>
+                  </div>
+                  <div>
+                    <button
+                      class="navbar-toggler"
+                      type="button"
+                      data-target="#navbarSupportedContent"
+                      aria-controls="navbarSupportedContent"
+                      aria-expanded="false"
+                      aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-collapse justify-content-center collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav d-lg-flex justify-content-between align-items-center">
+                        <li>
+                          <button class="navbar-close">
+                            <i class="mdi mdi-close"></i>
+                          </button>
+                        </li>
+                        <li class="nav-item active">
+                          <a class="nav-link" href="./pages/news.html">News</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./pages/world.html">World</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./pages/economics.html">Economics</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./pages/sport.html">Sport</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./pages/beauty.html">Beauty</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./pages/travel.html">Travel</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./pages/technology.html">Tech</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./pages/entertainment.html">Fun</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <ul class="navbar-nav social-media">
+                    <li class="nav-item">
+                      <a class="nav-link" href="./pages/search.html">Search&nbsp;
+                        <i class="mdi mdi-magnify"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </header>
 
-  <!-- JavaScript -->
-  <script src="./js/utils.js"></script>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-  <!-- jQuery -->
-  <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
-</head>
-<body>
-  <!-- Code -->
-</body>
+        <footer>
+          <div class="footer-top">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-5">
+                  <img src="./assets/website-logo.png" alt="Logo" class="footer-logo">
+                  <h5 class="font-weight-normal mt-4 mb-5">
+                    This portal is maintained by Global News. Materials and information
+                    on this portal may not be copied, printed or used in any other form
+                    for profit purposes.
+                  </h5>
+                  <h3 class="font-weight-bold mb-3">SOCIAL MEDIA</h3>
+                  <ul class="social-media mb-3">
+                    <li>
+                      <a href="https://facebook.com" target="_blank">
+                        <i class="mdi mdi-facebook"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://instagram.com" target="_blank">
+                        <i class="mdi mdi-instagram"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://twitter.com" target="_blank">
+                        <i class="mdi mdi-twitter"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-sm-3">
+                  <h3 class="font-weight-bold mb-3">CATEGORIES</h3>
+                  <div class="footer-border-bottom pb-2 pt-2">
+                    <div class="d-flex justify-content-between align-items-center">
+                      <h5 class="mb-0 font-weight-600"><a href="#" class="nav-link">News</a></h5>
+                    </div>
+                  </div>
+                  <div class="footer-border-bottom pb-2 pt-2">
+                    <div class="d-flex justify-content-between align-items-center">
+                      <h5 class="mb-0 font-weight-600"><a href="#" class="nav-link">World</a></h5>
+                    </div>
+                  </div>
+                  <div class="footer-border-bottom pb-2 pt-2">
+                    <div class="d-flex justify-content-between align-items-center">
+                      <h5 class="mb-0 font-weight-600"><a href="#" class="nav-link">Politics</a></h5>
+                    </div>
+                  </div>
+                  <div class="footer-border-bottom pb-2 pt-2">
+                    <div class="d-flex justify-content-between align-items-center">
+                      <h5 class="mb-0 font-weight-600"><a href="#" class="nav-link">Finance</a></h5>
+                    </div>
+                  </div>
+                  <div class="footer-border-bottom pb-2 pt-2">
+                    <div class="d-flex justify-content-between align-items-center">
+                      <h5 class="mb-0 font-weight-600"><a href="#" class="nav-link">Economics</a></h5>
+                    </div>
+                  </div>
+                  <div class="footer-border-bottom pb-2 pt-2">
+                    <div class="d-flex justify-content-between align-items-center">
+                      <h5 class="mb-0 font-weight-600"><a href="#" class="nav-link">Business</a></h5>
+                    </div>
+                  </div>
+                  <div class="footer-border-bottom pb-2 pt-2">
+                    <div class="d-flex justify-content-between align-items-center">
+                      <h5 class="mb-0 font-weight-600"><a href="#" class="nav-link">Sports</a></h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <h3 class="font-weight-bold mb-3">CATEGORIES</h3>
+                  <div class="footer-border-bottom pb-2 pt-2">
+                    <div class="d-flex justify-content-between align-items-center">
+                      <h5 class="mb-0 font-weight-600"><a href="#" class="nav-link">Beauty</a></h5>
+                    </div>
+                  </div>
+                  <div class="footer-border-bottom pb-2 pt-2">
+                    <div class="d-flex justify-content-between align-items-center">
+                      <h5 class="mb-0 font-weight-600"><a href="#" class="nav-link">Music</a></h5>
+                    </div>
+                  </div>
+                  <div class="footer-border-bottom pb-2 pt-2">
+                    <div class="d-flex justify-content-between align-items-center">
+                      <h5 class="mb-0 font-weight-600"><a href="#" class="nav-link">Food</a></h5>
+                    </div>
+                  </div>
+                  <div class="footer-border-bottom pb-2 pt-2">
+                    <div class="d-flex justify-content-between align-items-center">
+                      <h5 class="mb-0 font-weight-600"><a href="#" class="nav-link">Travel</a></h5>
+                    </div>
+                  </div>
+                  <div class="footer-border-bottom pb-2 pt-2">
+                    <div class="d-flex justify-content-between align-items-center">
+                      <h5 class="mb-0 font-weight-600"><a href="#" class="nav-link">Technology</a></h5>
+                    </div>
+                  </div>
+                  <div class="footer-border-bottom pb-2 pt-2">
+                    <div class="d-flex justify-content-between align-items-center">
+                      <h5 class="mb-0 font-weight-600"><a href="#" class="nav-link">Science</a></h5>
+                    </div>
+                  </div>
+                  <div class="footer-border-bottom pb-2 pt-2">
+                    <div class="d-flex justify-content-between align-items-center">
+                      <h5 class="mb-0 font-weight-600"><a href="#" class="nav-link">Entertainment</a></h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-11">
+                  <div class="d-sm-flex justify-content-between align-items-center">
+                    <div class="fs-12 font-weight-600">
+                      Copyright &copy; Global News 2022. All rights reserved.
+                    </div>
+                    <div class="fs-12 font-weight-600">
+                      Powered by <a href="#" target="_blank" class="text-white">Ndriçim Lahu</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+      </div>
+    </div>
+
+    <!-- Custom JS -->
+    <script src="./js/latest_news.js"></script>
+
+    <!-- Plugin JS -->
+    <script src="./vendors/js/vendor.bundle.base.js"></script>
+    <script src="./vendors/aos/dist/aos.js/aos.js"></script>
+    
+    <!-- Scroll JS -->
+    <script src="./js/scroll.js"></script>
+    <script src="./js/jquery.easeScroll.js"></script>
+
+    <!-- Icon Pack -->
+    <script src="https://use.fontawesome.com/releases/v6.2.0/js/all.js"></script>
+  </body>
 </html>
