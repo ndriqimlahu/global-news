@@ -236,7 +236,7 @@
     })
 
     // Economics Articles
-    fetch('https://newscatcher.p.rapidapi.com/v1/search?q=economics&lang=en&sort_by=relevancy&topic=economics&page=1&page_size=2&media=True', settings)
+    fetch('https://newscatcher.p.rapidapi.com/v1/search?q=economic&lang=en&sort_by=relevancy&topic=economics&page=1&page_size=2&media=True', settings)
     .then((response) => response.json())
     .then((response) => {
       const response_data = response.articles
@@ -302,7 +302,7 @@
     })
 
     // Sports Articles
-    fetch('https://newscatcher.p.rapidapi.com/v1/search?q=sports&lang=en&sort_by=relevancy&topic=sports&page=1&page_size=2&media=True', settings)
+    fetch('https://newscatcher.p.rapidapi.com/v1/search?q=sport&lang=en&sort_by=relevancy&topic=sports&page=1&page_size=2&media=True', settings)
     .then((response) => response.json())
     .then((response) => {
       const response_data = response.articles
