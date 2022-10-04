@@ -10907,3 +10907,21 @@ footer .footer-bottom {
   height: 75px;
   object-fit: fill;
 }
+
+.flash-article-title {
+  font-size: 18px;
+}
+
+.flash-article-summary {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 12px;
+}
+
+.flash-article-media {
+  width: 100%;
+  height: 175px;
+  object-fit: fill;
+}
