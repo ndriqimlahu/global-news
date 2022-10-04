@@ -135,6 +135,39 @@
         .querySelector(".news-articles")
         .insertAdjacentHTML("afterbegin", response_data);
     })
+
+    // World Articles
+    fetch('https://newscatcher.p.rapidapi.com/v1/search?q=world&lang=en&sort_by=relevancy&topic=world&page=1&page_size=2&media=True', settings)
+    .then((response) => response.json())
+    .then((response) => {
+      const response_data = response.articles
+        .map((articles) => {
+          return `
+          <div class="col-sm-6 grid-margin">
+            <div class="position-relative">
+              <div class="rotate-img">
+                <img
+                  src="${articles.media}"
+                  alt="News Image"
+                  class="img-fluid rounded topic-article-media" />
+              </div>
+              <div class="banner-content">
+                <div class="badge badge-danger fs-12 font-weight-bold mb-3">${articles.topic}</div>
+                <a href="${articles.link}" target="_blank">
+                  <h3 class="mb-0 topic-article-title">${articles.title}</h3>
+                </a>
+                <div class="fs-12">
+                  <br><span class="mr-2">${articles.published_date}</span>
+                </div>
+              </div>
+            </div>
+          </div>`;
+        })
+        .join("");
+      document
+        .querySelector(".world-articles")
+        .insertAdjacentHTML("afterbegin", response_data);
+    })
     
     .catch((error) =>
       console.error("Something went wrong, please try again later.", error)
