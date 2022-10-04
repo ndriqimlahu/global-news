@@ -10925,3 +10925,17 @@ footer .footer-bottom {
   height: 175px;
   object-fit: fill;
 }
+
+.topic-article-title {
+  width: 25em;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-size: 16px;
+}
+
+.topic-article-media {
+  width: 100%;
+  height: 350px;
+  object-fit: fill;
+}
