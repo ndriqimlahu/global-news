@@ -10893,3 +10893,17 @@ footer .footer-bottom {
   height: 525px;
   object-fit: fill;
 }
+
+.latest-article-title {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 14px;
+}
+
+.latest-article-media {
+  width: 100%;
+  height: 75px;
+  object-fit: fill;
+}
