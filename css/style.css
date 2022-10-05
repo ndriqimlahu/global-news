@@ -4901,6 +4901,7 @@ a.badge-warning:focus, a.badge-warning.focus {
 .badge-danger {
   color: #fff;
   background-color: #d1011c;
+  text-transform: capitalize;
 }
 
 a.badge-danger:hover, a.badge-danger:focus {
