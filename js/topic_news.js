@@ -1,4 +1,4 @@
-(function latestNews() {
+(function topicNews() {
   const settings = {
     method: "GET",
     headers: {
@@ -8,7 +8,7 @@
   };
 
   // News Articles
-  fetch("https://newscatcher.p.rapidapi.com/v1/search_free?q=News&lang=en&ranked_only=True&page=1&page_size=20&media=True", settings)
+  fetch("https://newscatcher.p.rapidapi.com/v1/latest_headlines?topic=news&lang=en&media=True", settings)
     .then((response) => response.json())
     .then((response) => {
       const response_data = response.articles
