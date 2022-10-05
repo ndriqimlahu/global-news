@@ -14,7 +14,9 @@
       const response_data = response.articles
         .map((articles) => {
           return `
-          <img src="${articles.media}" alt="News Image" class="img-fluid rounded banner-article-media" />
+          <a href="${articles.link}" class="text-dark" target="_blank">
+            <img src="${articles.media}" alt="News Image" class="img-fluid rounded banner-article-media" />
+          </a>
           <div class="banner-content">
             <div class="badge badge-danger fs-12 font-weight-bold mb-3">${articles.topic}</div>
             <a href="${articles.link}" target="_blank">
@@ -43,7 +45,9 @@
               <div class="row">
                 <div class="col-sm-4">
                   <div class="rotate-img">
-                    <img src="${articles.media}" alt="News Image" class="img-fluid rounded latest-article-media" />
+                    <a href="${articles.link}" class="text-dark" target="_blank">
+                      <img src="${articles.media}" alt="News Image" class="img-fluid rounded latest-article-media" />
+                    </a>
                   </div>
                 </div>
                 <div class="col-sm-8">
@@ -71,7 +75,9 @@
           <div class="col-sm-4 grid-margin">
             <div class="position-relative">
               <div class="rotate-img">
-                <img src="${articles.media}" alt="News Image" class="img-fluid rounded flash-article-media" />
+                <a href="${articles.link}" class="text-dark" target="_blank">
+                  <img src="${articles.media}" alt="News Image" class="img-fluid rounded flash-article-media" />
+                </a>
               </div>
               <div class="badge-positioned">
                 <span class="badge badge-danger font-weight-bold">${articles.topic}</span>

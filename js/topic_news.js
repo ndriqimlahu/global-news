@@ -17,7 +17,9 @@
           <div class="col-sm-4 grid-margin">
             <div class="position-relative">
               <div class="rotate-img">
-                <img src="${articles.media}" alt="News Image" class="img-fluid rounded flash-article-media" />
+                <a href="${articles.link}" class="text-dark" target="_blank">
+                  <img src="${articles.media}" alt="News Image" class="img-fluid rounded flash-article-media" />
+                </a>
               </div>
               <div class="badge-positioned">
                 <span class="badge badge-danger font-weight-bold">${articles.topic}</span>
