@@ -34,7 +34,7 @@
     })
 
     // Latest News
-    fetch('https://newscatcher.p.rapidapi.com/v1/search_free?q=World&lang=en&ranked_only=True&page=1&page_size=3&media=True', settings)
+    fetch('https://newscatcher.p.rapidapi.com/v1/search_free?q=News&lang=en&ranked_only=True&page=1&page_size=3&media=True', settings)
     .then((response) => response.json())
     .then((response) => {
       const response_data = response.articles
