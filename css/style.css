@@ -10942,3 +10942,46 @@ footer .footer-bottom {
   height: 350px;
   object-fit: fill;
 }
+
+.search-article-title {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.search-article-summary {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 14px;
+}
+
+.search-article-media {
+  width: 100%;
+  height: 250px;
+  object-fit: fill;
+}
+
+.search-article-topic {
+  float: left;
+  width: 12.2em;
+  white-space: nowrap;
+  text-overflow: clip;
+  overflow: hidden;
+  font-size: 14px;
+  font-weight: 600;
+  padding-left: 15px;
+  text-transform: capitalize;
+}
+
+.search-article-date {
+  float: right;
+  width: 6.2em;
+  white-space: nowrap;
+  text-overflow: clip;
+  overflow: hidden;
+  font-size: 14px;
+  font-weight: 600;
+  padding-left: 15px;
+}
