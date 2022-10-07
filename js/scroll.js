@@ -1,14 +1,15 @@
 $(function() {
-  // aos animation initialisation
+  // aos animation initialization
   AOS.init({
     duration: 2000,
     once: true
   });
 
   // scroll header script here
-  window.onscroll = function() {
-    scrollHeader();
-  };
+  // window.onscroll = function() {
+  //   scrollHeader();
+  // };
+  
   // Get the header
   var header = $(".navbar-bottom");
   var body = $("body");
