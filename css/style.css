@@ -59,6 +59,7 @@
 }
 
 html {
+  scroll-behavior: smooth;
   font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -10984,4 +10985,12 @@ footer .footer-bottom {
   font-size: 14px;
   font-weight: 600;
   padding-left: 15px;
+}
+
+#scroll-up-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 20px;
+  display: none;
 }
