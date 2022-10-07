@@ -10300,7 +10300,7 @@ header .navbar-top .navbar-top-right-menu .nav-item:last-child .nav-link {
 
 @media (max-width: 999px) {
   header .navbar-top {
-    display: none;
+    /* display: none; */
   }
 }
 
