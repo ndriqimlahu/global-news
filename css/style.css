@@ -10806,16 +10806,16 @@ footer .footer-bottom {
 }
 
 .error-wrap {
-  width: 394px;
+  width: auto;
   margin: 240px auto;
   text-align: center;
 }
 
-/* @media (max-width: 999px) {
+@media (max-width: 999px) {
   .error-wrap {
     margin: 80px 0;
   }
-} */
+}
 
 .error-title {
   font-size: 40px;
