@@ -5,10 +5,11 @@ $(function() {
     once: true
   });
 
-  // scroll header script here
-  // window.onscroll = function() {
-  //   scrollHeader();
-  // };
+  // scroll header and button script here
+  window.onscroll = function() {
+    scrollHeader();
+    scrollButton();
+  };
   
   // Get the header
   var header = $(".navbar-bottom");
@@ -21,6 +22,28 @@ $(function() {
       // removing sticky class
       $(header).removeClass("sticky");
     }
+  }
+
+  // Get the button
+  let scrollBtn = document.getElementById("scroll-up-btn");
+  function scrollButton() {
+    if (
+      document.body.scrollTop > 20 ||
+      document.documentElement.scrollTop > 20
+    ) {
+      scrollBtn.style.display = "block";
+    } else {
+      scrollBtn.style.display = "none";
+    }
+  }
+
+  // When user clicks on button, then scroll to the top of page
+  scrollBtn.addEventListener("click", backToTop);
+
+  // Function to scroll up to the top of page
+  function backToTop() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
   }
 
   // navbar toggler script
