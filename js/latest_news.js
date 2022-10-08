@@ -22,9 +22,6 @@
             <a href="${articles.link}" target="_blank">
               <h3 class="mb-0 banner-article-title">${articles.title}</h3>
             </a>
-            <div class="fs-12">
-              <br><span class="mr-2">${articles.published_date}</span>
-            </div>
           </div>`;
         })
         .join("");
@@ -88,8 +85,8 @@
             <a href="${articles.link}" class="text-dark" target="_blank">
               <h3 class="mb-2 font-weight-600 flash-article-title">${articles.title}</h3>
             </a>
-            <div class="fs-13 mb-2">
-              <span class="mr-2">${articles.author} | ${articles.published_date}</span>
+            <div class="fs-13 mb-5">
+              <span class="mr-2 flash-article-date">${articles.published_date}</span>
             </div>
             <p class="mb-0 flash-article-summary">${articles.summary}</p>
           </div>`;
