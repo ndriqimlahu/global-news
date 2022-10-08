@@ -11093,3 +11093,59 @@ footer .footer-bottom {
     height: 260px;
   }
 }
+
+@media (max-width: 425px) {
+  .content-wrapper .banner-content {
+    padding: 25px 25px;
+  }
+
+  .banner-article-title {
+    font-size: 18px;
+  }
+
+  .banner-article-media {
+    height: 330px;
+  }
+
+  .latest-article-media {
+    height: 180px;
+  }
+
+  .flash-article-media {
+    height: 210px;
+  }
+
+  .search-article-media {
+    height: 220px;
+  }
+}
+
+@media (max-width: 375px) {
+  header .navbar-top .navbar-top-left-menu .nav-item .nav-link {
+    font-size: 12px;
+  }
+
+  .content-wrapper .banner-content {
+    padding: 25px 25px;
+  }
+
+  .banner-article-title {
+    font-size: 16px;
+  }
+
+  .banner-article-media {
+    height: 300px;
+  }
+
+  .latest-article-media {
+    height: 165px;
+  }
+
+  .flash-article-media {
+    height: 200px;
+  }
+
+  .search-article-media {
+    height: 200px;
+  }
+}
