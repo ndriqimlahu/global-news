@@ -11122,7 +11122,15 @@ footer .footer-bottom {
 
 @media (max-width: 375px) {
   header .navbar-top .navbar-top-left-menu .nav-item .nav-link {
-    font-size: 12px;
+    font-size: 0.8rem !important;
+  }
+
+  .social-media li a {
+    font-size: 0.8rem !important;
+  }
+
+  .navbar-brand {
+    font-size: 1.2rem;
   }
 
   .content-wrapper .banner-content {
@@ -11147,5 +11155,43 @@ footer .footer-bottom {
 
   .search-article-media {
     height: 200px;
+  }
+}
+
+@media (max-width: 320px) {
+  header .navbar-top .navbar-top-left-menu .nav-item .nav-link {
+    font-size: 0.6rem !important;
+  }
+
+  .social-media li a {
+    font-size: 0.6rem !important;
+  }
+
+  .navbar-brand {
+    font-size: 1.0rem;
+  }
+
+  .content-wrapper .banner-content {
+    padding: 25px 25px;
+  }
+
+  .banner-article-title {
+    font-size: 16px;
+  }
+
+  .banner-article-media {
+    height: 270px;
+  }
+
+  .latest-article-media {
+    height: 140px;
+  }
+
+  .flash-article-media {
+    height: 180px;
+  }
+
+  .search-article-media {
+    height: 180px;
   }
 }
