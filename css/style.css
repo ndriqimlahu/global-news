@@ -10216,8 +10216,8 @@ header .navbar .navbar-brand img {
 }
 
 @media (max-width: 999px) {
-  header .navbar .social-media {
-    display: contents;
+  header .navbar .live-cast {
+    display: none;
   }
 }
 
