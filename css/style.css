@@ -4857,6 +4857,7 @@ a.badge-secondary:focus, a.badge-secondary.focus {
 .badge-success {
   color: #fff;
   background-color: #3e8177;
+  text-transform: capitalize;
 }
 
 a.badge-success:hover, a.badge-success:focus {
@@ -4902,7 +4903,6 @@ a.badge-warning:focus, a.badge-warning.focus {
 .badge-danger {
   color: #fff;
   background-color: #d1011c;
-  text-transform: capitalize;
 }
 
 a.badge-danger:hover, a.badge-danger:focus {
