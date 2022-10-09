@@ -18,7 +18,7 @@
             <img src="${articles.media}" alt="News Image" class="img-fluid rounded banner-article-media" />
           </a>
           <div class="banner-content">
-            <div class="badge badge-danger fs-12 font-weight-bold mb-3">${articles.topic}</div>
+            <div class="badge badge-success fs-12 font-weight-bold mb-3">${articles.topic}</div>
             <a href="${articles.link}" target="_blank">
               <h3 class="mb-0 banner-article-title">${articles.title}</h3>
             </a>
@@ -77,7 +77,7 @@
                 </a>
               </div>
               <div class="badge-positioned">
-                <span class="badge badge-danger font-weight-bold">${articles.topic}</span>
+                <span class="badge badge-success font-weight-bold">${articles.topic}</span>
               </div>
             </div>
           </div>

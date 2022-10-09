@@ -22,7 +22,7 @@
                 </a>
               </div>
               <div class="badge-positioned">
-                <span class="badge badge-danger font-weight-bold">${articles.topic}</span>
+                <span class="badge badge-success font-weight-bold">${articles.topic}</span>
               </div>
             </div>
           </div>

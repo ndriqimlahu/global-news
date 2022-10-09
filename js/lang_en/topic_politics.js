@@ -1,4 +1,4 @@
-(function topicBusiness() {
+(function topicPolitics() {
   const settings = {
     method: "GET",
     headers: {
@@ -7,8 +7,8 @@
     },
   };
 
-  // Business Articles
-  fetch("https://newscatcher.p.rapidapi.com/v1/latest_headlines?topic=business&lang=en&media=True", settings)
+  // Politics Articles
+  fetch("https://newscatcher.p.rapidapi.com/v1/latest_headlines?topic=politics&lang=en&media=True", settings)
     .then((response) => response.json())
     .then((response) => {
       const response_data = response.articles
@@ -22,7 +22,7 @@
                 </a>
               </div>
               <div class="badge-positioned">
-                <span class="badge badge-danger font-weight-bold">${articles.topic}</span>
+                <span class="badge badge-success font-weight-bold">${articles.topic}</span>
               </div>
             </div>
           </div>
@@ -38,7 +38,7 @@
         })
         .join("");
       document
-        .querySelector(".business-articles")
+        .querySelector(".politics-articles")
         .insertAdjacentHTML("afterbegin", response_data);
     })
 
