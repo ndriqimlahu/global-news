@@ -10,15 +10,15 @@
   // Search Filters
   document.querySelector("#search_btn").addEventListener("click", () => {
     const query = document.querySelector("#query");
-    const lang = document.querySelector("#lang");
+    const country = document.querySelector("#country");
     const sort_by = document.querySelector("#sort_by");
     const page_size = document.querySelector("#page_size");
-    request(query, lang, sort_by, page_size);
+    request(query, country, sort_by, page_size);
   });
 
   // Search Results
-  request = (query, lang, sort_by, page_size) => {
-    let url = `https://newscatcher.p.rapidapi.com/v1/search?q=${query.value}&lang=${lang.value}&sort_by=${sort_by.value}&page_size=${page_size.value}&media=True`;
+  request = (query, country, sort_by, page_size) => {
+    let url = `https://newscatcher.p.rapidapi.com/v1/search?q=${query.value}&lang=en&country=${country.value}&sort_by=${sort_by.value}&page_size=${page_size.value}&media=True`;
     fetch(url, settings)
       .then((response) => response.json())
       .then((response) => {
