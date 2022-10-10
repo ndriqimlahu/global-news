@@ -58,9 +58,9 @@
 (function changeSearchBtnText() {
   const search_btn = document.querySelector("#search_btn");
   search_btn.addEventListener("click", () => {
-    search_btn.innerText = "Loading...";
+    search_btn.innerText = "Po ngarkohet...";
   });
   setInterval(() => {
-	search_btn.innerText = "Search";
+	search_btn.innerText = "Kërko";
   }, "2500")
 })();
