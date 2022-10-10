@@ -8,7 +8,7 @@
   };
 
   // Travel Articles
-  fetch("https://newscatcher.p.rapidapi.com/v1/latest_headlines?topic=travel&lang=en&media=True", settings)
+  fetch("https://newscatcher.p.rapidapi.com/v1/latest_headlines?topic=travel&lang=en&country=GB&media=True", settings)
     .then((response) => response.json())
     .then((response) => {
       const response_data = response.articles
