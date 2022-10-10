@@ -10836,11 +10836,11 @@ footer .footer-bottom {
 
 .search-container {
   border: 1px solid #e6e7e8;
-  height: 45px;
+  /* height: 45px;
   width: 410px;
   margin: auto;
   margin-top: 40px;
-  padding: 0 10px;
+  padding: 0 10px; */
   display: flex;
   justify-content: space-between;
 }
@@ -10852,12 +10852,12 @@ footer .footer-bottom {
 }
 
 .search-container input[type="text"] {
-  padding: 0;
+  /* padding: 0;
   margin-top: 0;
-  font-size: 17px;
+  font-size: 17px; */
   border: none;
-  width: 380px;
-  height: 40px;
+  /* width: 380px;
+  height: 40px; */
 }
 
 .search-container input[type="text"]:focus {
