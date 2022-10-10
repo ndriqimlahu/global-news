@@ -25,7 +25,7 @@
         const response_data = response.articles
           .map((articles) => {
             return `
-            <div class="col-lg-6">
+            <div class="col-lg-4 col-md-6">
               <div class="card border mb-4">
                 <a href="${articles.link}" class="text-dark" target="_blank">
                   <img src="${articles.media}" alt="News Image" class="img-fluid rounded-top search-article-media">
@@ -37,7 +37,7 @@
                   <p class="card-text search-article-summary">${articles.summary}</p>
                 </div>
                 <div class="card-footer">
-                  <small class="text-muted search-article-topic">${articles.topic}</small>
+                  <small class="text-muted search-article-topic">Lajme</small>
                   <small class="text-muted search-article-date">${articles.published_date}</small>
                 </div>
               </div>
