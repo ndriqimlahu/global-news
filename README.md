@@ -6,7 +6,7 @@
     Ndriçim Lahu
     <br>
     <br>
-    <a href="https://global-news.ga">View Website</a>
+    <a href="https://ndriqimlahu.github.io/global-news/">View Website</a>
     ·
     <a href="https://github.com/ndriqimlahu/global-news/issues">Report Bug</a>
     ·
