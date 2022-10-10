@@ -8,7 +8,7 @@
   };
 
   // Politics Articles
-  fetch("https://newscatcher.p.rapidapi.com/v1/latest_headlines?topic=politics&lang=sq&media=True", settings)
+  fetch("https://newscatcher.p.rapidapi.com/v1/latest_headlines?topic=politics&lang=sq&country=AL&media=True", settings)
     .then((response) => response.json())
     .then((response) => {
       const response_data = response.articles

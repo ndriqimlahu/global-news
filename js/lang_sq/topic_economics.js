@@ -8,7 +8,7 @@
   };
 
   // Economics Articles
-  fetch("https://newscatcher.p.rapidapi.com/v1/latest_headlines?topic=economics&lang=sq&media=True", settings)
+  fetch("https://newscatcher.p.rapidapi.com/v1/latest_headlines?topic=economics&lang=sq&country=XK&media=True", settings)
     .then((response) => response.json())
     .then((response) => {
       const response_data = response.articles
