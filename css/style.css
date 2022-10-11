@@ -11252,20 +11252,118 @@ footer .footer-bottom {
 }
 
 @media (max-width: 767px) {
+  header .navbar-top .navbar-top-left-menu .nav-item .nav-link {
+    font-size: 0.9rem !important;
+  }
+
+  header .navbar-top .navbar-top-right-menu .nav-item .nav-link {
+    font-size: 0.9rem !important;
+  }
+
+  header .navbar-bottom .navbar-nav .nav-item .nav-link {
+    font-size: 0.9rem !important;
+  }
+
+  .navbar-brand {
+    font-size: 1.1rem !important;
+  }
+
+  .content-wrapper .banner-content {
+    padding: 40px 50px !important;
+  }
+
+  .banner-article-title {
+    font-size: 20px !important;
+  }
+
   .banner-article-media {
     height: 370px !important;
+  }
+
+  .latest-article-title {
+    font-size: 14px !important;
   }
 
   .latest-article-media {
     height: 105px !important;
   }
 
+  .flash-article-title {
+    font-size: 14px !important;
+  }
+
+  .flash-article-summary {
+    -webkit-line-clamp: 3 !important;
+    font-size: 12px !important;
+  }
+
   .flash-article-media {
-    height: 140px !important;
+    height: 130px !important;
+  }
+
+  .flash-article-date {
+    font-size: 12px !important;
+  }
+
+  .search-article-title {
+    font-size: 14px !important;
+  }
+
+  .search-article-summary {
+    font-size: 12px !important;
   }
 
   .search-article-media {
-    height: 280px !important;
+    height: 270px !important;
+  }
+
+  .search-article-topic {
+    font-size: 12px !important;
+  }
+  
+  .search-article-date {
+    font-size: 12px !important;
+  }
+
+  .search-filters-results h2 {
+    font-size: 18px !important;
+  }
+
+  .aboutus-wrapper {
+    padding: 0 70px !important;
+  }
+
+  .aboutus-wrapper h1 {
+    font-size: 24px !important;
+  }
+
+  .aboutus-wrapper p {
+    font-size: 12px !important;
+  }
+
+  .error-title {
+    font-size: 34px !important;
+  }
+
+  .error-wrap p {
+    font-size: 14px !important;
+  }
+
+  .form-group button {
+    font-size: 14px !important;
+  }
+
+  .footer-logo {
+    width: 150px !important;
+    height: 150px !important;
+  }
+
+  .footer-top h5 {
+    font-size: 14px !important;
+  }
+
+  .footer-top h3 {
+    font-size: 18px !important;
   }
 }
 
