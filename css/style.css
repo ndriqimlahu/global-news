@@ -11140,6 +11140,12 @@ footer .footer-bottom {
   }
 }
 
+@media (max-width: 1024px) {
+  .flash-article-summary {
+    -webkit-line-clamp: 3 !important;
+  }
+}
+
 @media (max-width: 991px) {
   header .navbar-top .navbar-top-left-menu .nav-item .nav-link {
     font-size: 0.9rem !important;
@@ -11850,7 +11856,7 @@ footer .footer-bottom {
   }
 
   .banner-article-media {
-    height: 230px !important;
+    height: 220px !important;
   }
 
   .latest-article-title {
