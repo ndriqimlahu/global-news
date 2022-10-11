@@ -9686,7 +9686,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .card .card-body {
-  padding: 2rem 2rem;
+  padding: 1rem 1rem;
 }
 
 .card.card-hover {
@@ -10975,6 +10975,7 @@ footer .footer-bottom {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
+  font-size: 14px !important;
 }
 
 .search-article-summary {
@@ -10982,7 +10983,7 @@ footer .footer-bottom {
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .search-article-media {
@@ -10993,25 +10994,23 @@ footer .footer-bottom {
 
 .search-article-topic {
   float: left;
-  width: 12.2em;
+  width: 10.2em;
   white-space: nowrap;
   text-overflow: clip;
   overflow: hidden;
   font-size: 14px;
   font-weight: 600;
-  padding-left: 15px;
   text-transform: capitalize;
 }
 
 .search-article-date {
   float: right;
-  width: 6.2em;
+  width: 5.2em;
   white-space: nowrap;
   text-overflow: clip;
   overflow: hidden;
   font-size: 14px;
   font-weight: 600;
-  padding-left: 15px;
 }
 
 #scroll-up-btn {
@@ -11023,100 +11022,193 @@ footer .footer-bottom {
 }
 
 @media (max-width: 1199px) {
+  header .navbar-top .navbar-top-left-menu .nav-item .nav-link {
+    font-size: 1.0rem !important;
+  }
+
+  header .navbar-top .navbar-top-right-menu .nav-item .nav-link {
+    font-size: 1.0rem !important;
+  }
+
+  header .navbar-bottom .navbar-nav .nav-item .nav-link {
+    font-size: 1.0rem !important;
+  }
+
+  .navbar-brand {
+    font-size: 1.2rem !important;
+  }
+
+  .content-wrapper .banner-content {
+    padding: 40px 70px !important;
+  }
+
+  .banner-article-title {
+    font-size: 24px !important;
+  }
+  
   .banner-article-media {
-    height: 520px;
+    height: 520px !important;
+  }
+  
+  .latest-article-title {
+    font-size: 20px !important;
   }
 
   .latest-article-media {
-    height: 150px;
+    height: 150px !important;
+  }
+
+  .flash-article-title {
+    font-size: 18px !important;
+  }
+
+  .flash-article-summary {
+    font-size: 14px !important;
   }
 
   .flash-article-media {
-    height: 170px;
+    height: 170px !important;
+  }
+
+  .flash-article-date {
+    font-size: 16px !important;
+  }
+
+  .search-article-title {
+    font-size: 14px !important;
+  }
+
+  .search-article-summary {
+    font-size: 12px !important;
   }
 
   .search-article-media {
-    height: 260px;
+    height: 220px !important;
+  }
+
+  .search-article-topic {
+    font-size: 12px !important;
+  }
+  
+  .search-article-date {
+    font-size: 12px !important;
+  }
+
+  .search-filters-results h2 {
+    font-size: 22px !important;
+  }
+
+  .aboutus-wrapper h1 {
+    font-size: 28px !important;
+  }
+
+  .aboutus-wrapper p {
+    font-size: 14px !important;
+  }
+
+  .error-title {
+    font-size: 38px !important;
+  }
+
+  .error-wrap p {
+    font-size: 14px !important;
+  }
+
+  .form-group button {
+    font-size: 14px !important;
+  }
+
+  .footer-logo {
+    width: 140px !important;
+    height: 140px !important;
+  }
+
+  .footer-top h5 {
+    font-size: 14px !important;
+  }
+
+  .footer-top h3 {
+    font-size: 18px !important;
   }
 }
 
 @media (max-width: 991px) {
   .banner-article-media {
-    height: 420px;
+    height: 420px !important;
   }
 
   .latest-article-media {
-    height: 125px;
+    height: 125px !important;
   }
 
   .flash-article-media {
-    height: 150px;
+    height: 150px !important;
   }
 
   .search-article-media {
-    height: 300px;
+    height: 300px !important;
   }
 }
 
 @media (max-width: 767px) {
   .banner-article-media {
-    height: 370px;
+    height: 370px !important;
   }
 
   .latest-article-media {
-    height: 105px;
+    height: 105px !important;
   }
 
   .flash-article-media {
-    height: 140px;
+    height: 140px !important;
   }
 
   .search-article-media {
-    height: 280px;
+    height: 280px !important;
   }
 }
 
 @media (max-width: 575px) {
   .banner-article-media {
-    height: 350px;
+    height: 350px !important;
   }
 
   .latest-article-media {
-    height: 200px;
+    height: 200px !important;
   }
 
   .flash-article-media {
-    height: 230px;
+    height: 230px !important;
   }
 
   .search-article-media {
-    height: 260px;
+    height: 260px !important;
   }
 }
 
 @media (max-width: 425px) {
   .content-wrapper .banner-content {
-    padding: 25px 25px;
+    padding: 25px 25px !important;
   }
 
   .banner-article-title {
-    font-size: 18px;
+    font-size: 18px !important;
   }
 
   .banner-article-media {
-    height: 330px;
+    height: 330px !important;
   }
 
   .latest-article-media {
-    height: 180px;
+    height: 180px !important;
   }
 
   .flash-article-media {
-    height: 210px;
+    height: 210px !important;
   }
 
   .search-article-media {
-    height: 220px;
+    height: 220px !important;
   }
 }
 
@@ -11125,36 +11217,36 @@ footer .footer-bottom {
     font-size: 0.8rem !important;
   }
 
-  .social-media li a {
+  header .navbar-top .navbar-top-right-menu .nav-item .nav-link {
     font-size: 0.8rem !important;
   }
 
   .navbar-brand {
-    font-size: 1.2rem;
+    font-size: 1.2rem !important;
   }
 
   .content-wrapper .banner-content {
-    padding: 25px 25px;
+    padding: 25px 25px !important;
   }
 
   .banner-article-title {
-    font-size: 16px;
+    font-size: 16px !important;
   }
 
   .banner-article-media {
-    height: 300px;
+    height: 300px !important;
   }
 
   .latest-article-media {
-    height: 165px;
+    height: 165px !important;
   }
 
   .flash-article-media {
-    height: 200px;
+    height: 200px !important;
   }
 
   .search-article-media {
-    height: 200px;
+    height: 200px !important;
   }
 }
 
@@ -11168,30 +11260,30 @@ footer .footer-bottom {
   }
 
   .navbar-brand {
-    font-size: 1.0rem;
+    font-size: 1.0rem !important;
   }
 
   .content-wrapper .banner-content {
-    padding: 25px 25px;
+    padding: 25px 25px !important;
   }
 
   .banner-article-title {
-    font-size: 16px;
+    font-size: 16px !important;
   }
 
   .banner-article-media {
-    height: 270px;
+    height: 270px !important;
   }
 
   .latest-article-media {
-    height: 140px;
+    height: 140px !important;
   }
 
   .flash-article-media {
-    height: 180px;
+    height: 180px !important;
   }
 
   .search-article-media {
-    height: 180px;
+    height: 180px !important;
   }
 }
