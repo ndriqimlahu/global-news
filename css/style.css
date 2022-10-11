@@ -11118,6 +11118,10 @@ footer .footer-bottom {
     font-size: 14px !important;
   }
 
+  .form-control {
+    font-size: 13px !important;
+  }
+
   .form-group button {
     font-size: 14px !important;
   }
@@ -11151,6 +11155,14 @@ footer .footer-bottom {
 
   .navbar-brand {
     font-size: 1.1rem !important;
+  }
+
+  .category-dropdown a {
+    font-size: 1.0rem !important;
+  }
+
+  .category-menu a {
+    font-size: 0.9rem !important;
   }
 
   .content-wrapper .banner-content {
@@ -11233,6 +11245,10 @@ footer .footer-bottom {
     font-size: 14px !important;
   }
 
+  .form-control {
+    font-size: 13px !important;
+  }
+
   .form-group button {
     font-size: 14px !important;
   }
@@ -11266,6 +11282,14 @@ footer .footer-bottom {
 
   .navbar-brand {
     font-size: 1.1rem !important;
+  }
+
+  .category-dropdown a {
+    font-size: 1.0rem !important;
+  }
+
+  .category-menu a {
+    font-size: 0.9rem !important;
   }
 
   .content-wrapper .banner-content {
@@ -11349,6 +11373,10 @@ footer .footer-bottom {
     font-size: 14px !important;
   }
 
+  .form-control {
+    font-size: 13px !important;
+  }
+
   .form-group button {
     font-size: 14px !important;
   }
@@ -11377,11 +11405,19 @@ footer .footer-bottom {
   }
 
   header .navbar-bottom .navbar-nav .nav-item .nav-link {
-    font-size: 1.0rem !important;
+    font-size: 0.9rem !important;
   }
 
   .navbar-brand {
     font-size: 1.0rem !important;
+  }
+
+  .category-dropdown a {
+    font-size: 0.9rem !important;
+  }
+
+  .category-menu a {
+    font-size: 0.8rem !important;
   }
 
   .content-wrapper .banner-content {
@@ -11465,6 +11501,10 @@ footer .footer-bottom {
     font-size: 14px !important;
   }
 
+  .form-control {
+    font-size: 13px !important;
+  }
+
   .form-group button {
     font-size: 14px !important;
   }
@@ -11485,6 +11525,7 @@ footer .footer-bottom {
 
 @media (max-width: 425px) {
   header .navbar-top .navbar-top-left-menu .nav-item .nav-link {
+    padding: 3px 8px !important;
     font-size: 0.7rem !important;
   }
 
@@ -11493,11 +11534,31 @@ footer .footer-bottom {
   }
 
   header .navbar-bottom .navbar-nav .nav-item .nav-link {
-    font-size: 1.0rem !important;
+    font-size: 0.8rem !important;
+  }
+
+  .nav-link {
+    padding: 0.2rem 0.6rem !important;
   }
 
   .navbar-brand {
     font-size: 0.9rem !important;
+  }
+
+  .navbar-toggler {
+    padding: 0.25rem 0.55rem !important;
+  }
+
+  .navbar-collapse {
+    width: 230px !important;
+  }
+
+  .category-dropdown a {
+    font-size: 0.8rem !important;
+  }
+
+  .category-menu a {
+    font-size: 0.7rem !important;
   }
 
   .content-wrapper .banner-content {
@@ -11580,6 +11641,10 @@ footer .footer-bottom {
     font-size: 14px !important;
   }
 
+  .form-control {
+    font-size: 12px !important;
+  }
+
   .form-group button {
     font-size: 14px !important;
   }
@@ -11600,6 +11665,7 @@ footer .footer-bottom {
 
 @media (max-width: 375px) {
   header .navbar-top .navbar-top-left-menu .nav-item .nav-link {
+    padding: 3px 8px !important;
     font-size: 0.6rem !important;
   }
 
@@ -11608,11 +11674,31 @@ footer .footer-bottom {
   }
 
   header .navbar-bottom .navbar-nav .nav-item .nav-link {
-    font-size: 1.0rem !important;
+    font-size: 0.7rem !important;
+  }
+
+  .nav-link {
+    padding: 0.2rem 0.5rem !important;
   }
 
   .navbar-brand {
     font-size: 0.8rem !important;
+  }
+
+  .navbar-toggler {
+    padding: 0.20rem 0.50rem !important;
+  }
+
+  .navbar-collapse {
+    width: 210px !important;
+  }
+
+  .category-dropdown a {
+    font-size: 0.7rem !important;
+  }
+
+  .category-menu a {
+    font-size: 0.6rem !important;
   }
 
   .content-wrapper .banner-content {
@@ -11695,6 +11781,10 @@ footer .footer-bottom {
     font-size: 12px !important;
   }
 
+  .form-control {
+    font-size: 11px !important;
+  }
+
   .form-group button {
     font-size: 12px !important;
   }
@@ -11715,38 +11805,140 @@ footer .footer-bottom {
 
 @media (max-width: 320px) {
   header .navbar-top .navbar-top-left-menu .nav-item .nav-link {
+    padding: 3px 5px !important;
+    font-size: 0.5rem !important;
+  }
+
+  header .navbar-top .navbar-top-right-menu .nav-item .nav-link {
     font-size: 0.6rem !important;
   }
 
-  .social-media li a {
-    font-size: 0.6rem !important;
+  header .navbar-bottom .navbar-nav .nav-item .nav-link {
+    font-size: 0.7rem !important;
+  }
+
+  .nav-link {
+    padding: 0.2rem 0.4rem !important;
   }
 
   .navbar-brand {
-    font-size: 1.0rem !important;
+    font-size: 0.7rem !important;
+  }
+
+  .navbar-toggler {
+    padding: 0.15rem 0.45rem !important;
+  }
+
+  .navbar-collapse {
+    width: 180px !important;
+  }
+
+  .category-dropdown a {
+    font-size: 0.7rem !important;
+  }
+
+  .category-menu a {
+    font-size: 0.6rem !important;
   }
 
   .content-wrapper .banner-content {
-    padding: 25px 25px !important;
+    padding: 15px 20px !important;
   }
 
   .banner-article-title {
-    font-size: 16px !important;
+    font-size: 12px !important;
   }
 
   .banner-article-media {
-    height: 270px !important;
+    height: 230px !important;
+  }
+
+  .latest-article-title {
+    font-size: 12px !important;
   }
 
   .latest-article-media {
     height: 140px !important;
   }
 
+  .flash-article-title {
+    font-size: 14px !important;
+  }
+
+  .flash-article-summary {
+    font-size: 12px !important;
+  }
+
   .flash-article-media {
-    height: 180px !important;
+    height: 160px !important;
+  }
+
+  .flash-article-date {
+    font-size: 12px !important;
+  }
+
+  .search-article-title {
+    font-size: 13px !important;
+  }
+
+  .search-article-summary {
+    font-size: 11px !important;
   }
 
   .search-article-media {
-    height: 180px !important;
+    height: 170px !important;
+  }
+
+  .search-article-topic {
+    font-size: 11px !important;
+  }
+  
+  .search-article-date {
+    font-size: 11px !important;
+  }
+
+  .search-filters-results h2 {
+    font-size: 15px !important;
+  }
+
+  .aboutus-wrapper {
+    padding: 0 30px !important;
+  }
+
+  .aboutus-wrapper h1 {
+    font-size: 20px !important;
+  }
+
+  .aboutus-wrapper p {
+    font-size: 11px !important;
+  }
+
+  .error-title {
+    font-size: 24px !important;
+  }
+
+  .error-wrap p {
+    font-size: 10px !important;
+  }
+
+  .form-control {
+    font-size: 10px !important;
+  }
+
+  .form-group button {
+    font-size: 11px !important;
+  }
+
+  .footer-logo {
+    width: 105px !important;
+    height: 105px !important;
+  }
+
+  .footer-top h5 {
+    font-size: 11px !important;
+  }
+
+  .footer-top h3 {
+    font-size: 13px !important;
   }
 }
