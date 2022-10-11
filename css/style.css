@@ -11368,20 +11368,117 @@ footer .footer-bottom {
 }
 
 @media (max-width: 575px) {
+  header .navbar-top .navbar-top-left-menu .nav-item .nav-link {
+    font-size: 0.8rem !important;
+  }
+
+  header .navbar-top .navbar-top-right-menu .nav-item .nav-link {
+    font-size: 0.8rem !important;
+  }
+
+  header .navbar-bottom .navbar-nav .nav-item .nav-link {
+    font-size: 0.8rem !important;
+  }
+
+  .navbar-brand {
+    font-size: 1.0rem !important;
+  }
+
+  .content-wrapper .banner-content {
+    padding: 35px 45px !important;
+  }
+
+  .banner-article-title {
+    font-size: 18px !important;
+  }
+
   .banner-article-media {
-    height: 350px !important;
+    height: 360px !important;
+  }
+
+  .latest-article-title {
+    font-size: 14px !important;
   }
 
   .latest-article-media {
-    height: 200px !important;
+    height: 250px !important;
+  }
+
+  .flash-article-title {
+    font-size: 16px !important;
+  }
+
+  .flash-article-summary {
+    font-size: 12px !important;
   }
 
   .flash-article-media {
     height: 230px !important;
   }
 
+  .flash-article-date {
+    font-size: 14px !important;
+  }
+
+  .search-article-title {
+    font-size: 14px !important;
+  }
+
+  .search-article-summary {
+    font-size: 12px !important;
+  }
+
   .search-article-media {
     height: 260px !important;
+  }
+
+  .search-article-topic {
+    font-size: 12px !important;
+  }
+  
+  .search-article-date {
+    font-size: 12px !important;
+  }
+
+  .search-filters-results h2 {
+    font-size: 18px !important;
+  }
+
+  .aboutus-wrapper {
+    padding: 0 50px !important;
+  }
+
+  .aboutus-wrapper h1 {
+    font-size: 24px !important;
+  }
+
+  .aboutus-wrapper p {
+    font-size: 12px !important;
+  }
+
+  .error-title {
+    font-size: 32px !important;
+  }
+
+  .error-wrap p {
+    font-size: 14px !important;
+  }
+
+  .form-group button {
+    font-size: 14px !important;
+  }
+
+  .footer-logo {
+    width: 140px !important;
+    height: 140px !important;
+  }
+
+  .footer-top h5 {
+    font-size: 14px !important;
+  }
+
+  .footer-top h3 {
+    font-size: 18px !important;
   }
 }
 
