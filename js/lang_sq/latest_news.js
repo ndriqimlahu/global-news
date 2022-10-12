@@ -8,7 +8,7 @@
   };
 
   // Banner Article
-  fetch('https://newscatcher.p.rapidapi.com/v1/search_free?q=Botërore&lang=sq&ranked_only=True&page=1&page_size=1&media=True', settings)
+  fetch('https://newscatcher.p.rapidapi.com/v1/search_free?q=botërore&lang=sq&ranked_only=True&page=1&page_size=1&media=True', settings)
     .then((response) => response.json())
     .then((response) => {
       const response_data = response.articles
@@ -31,7 +31,7 @@
     })
 
     // Latest News
-    fetch('https://newscatcher.p.rapidapi.com/v1/search_free?q=Lajme&lang=sq&ranked_only=True&page=1&page_size=3&media=True', settings)
+    fetch('https://newscatcher.p.rapidapi.com/v1/search_free?q=lajme&lang=sq&ranked_only=True&page=1&page_size=3&media=True', settings)
     .then((response) => response.json())
     .then((response) => {
       const response_data = response.articles
@@ -63,7 +63,7 @@
     })
 
     // Flash News
-    fetch('https://newscatcher.p.rapidapi.com/v1/search_free?q=Politikë&lang=sq&page=1&page_size=3&media=True', settings)
+    fetch('https://newscatcher.p.rapidapi.com/v1/search_free?q=politikë AND ekonomi&lang=sq&page=1&page_size=3&media=True', settings)
     .then((response) => response.json())
     .then((response) => {
       const response_data = response.articles
