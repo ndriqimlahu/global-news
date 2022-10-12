@@ -85,7 +85,68 @@ In order to open this website is required to have an IDE or Code Editor (Visual 
 
 There you can see some useful additional screenshots of how the project looks like and how can be used.
 
-* Screenshots will be uploaded soon!
+* Home page (Latest News)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/01.1-Home%20page%20(Latest%20News).png">
+
+* Home page (Footer)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/01.2-Home%20page%20(Footer).png">
+
+* About Us page (History)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/02-About%20Us%20page%20(History).png">
+
+* Contact Us page (Form)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/03-Contact%20Us%20page%20(Form).png">
+
+* Search page (Search Filters)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/04.1-Search%20page%20(Search%20Filters).png">
+
+* Search page (Search Results)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/04.2-Search%20page%20(Search%20Results).png">
+
+* News page (Latest Articles)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/05.1-News%20page%20(Latest%20Articles).png">
+
+* World page (Latest Articles)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/05.2-World%20page%20(Latest%20Articles).png">
+
+* Politics page (Latest Articles)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/05.3-Politics%20page%20(Latest%20Articles).png">
+
+* Finance page (Latest Articles)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/05.4-Finance%20page%20(Latest%20Articles).png">
+
+* Economics page (Latest Articles)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/05.5-Economics%20page%20(Latest%20Articles).png">
+
+* Business page (Latest Articles)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/05.6-Business%20page%20(Latest%20Articles).png">
+
+* Science page (Latest Articles)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/05.7-Science%20page%20(Latest%20Articles).png">
+
+* Sport page (Latest Articles)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/05.8-Sport%20page%20(Latest%20Articles).png">
+
+* Tech page (Latest Articles)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/05.9-Tech%20page%20(Latest%20Articles).png">
+
+* Beauty page (Latest Articles)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/05.10-Beauty%20page%20(Latest%20Articles).png">
+
+* Music page (Latest Articles)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/05.11-Music%20page%20(Latest%20Articles).png">
+
+* Food page (Latest Articles)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/05.12-Food%20page%20(Latest%20Articles).png">
+
+* Travel page (Latest Articles)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/05.13-Travel%20page%20(Latest%20Articles).png">
+
+* Fun page (Latest Articles)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/05.14-Fun%20page%20(Latest%20Articles).png">
+
+* 404 page (Page Not Found)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/06-404%20page%20(Page%20Not%20Found).png">
 
 
 <!-- LICENSE -->
