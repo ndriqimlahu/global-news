@@ -8,7 +8,7 @@
   };
 
   // Banner Article
-  fetch('https://newscatcher.p.rapidapi.com/v1/search_free?q=Globale&lang=sq&ranked_only=True&page=1&page_size=1&media=True', settings)
+  fetch('https://newscatcher.p.rapidapi.com/v1/search_free?q=Botërore&lang=sq&ranked_only=True&page=1&page_size=1&media=True', settings)
     .then((response) => response.json())
     .then((response) => {
       const response_data = response.articles

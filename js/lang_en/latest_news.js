@@ -8,7 +8,7 @@
   };
 
   // Banner Article
-  fetch('https://newscatcher.p.rapidapi.com/v1/search_free?q=Global&lang=en&ranked_only=True&page=1&page_size=1&media=True', settings)
+  fetch('https://newscatcher.p.rapidapi.com/v1/search_free?q=World&lang=en&ranked_only=True&page=1&page_size=1&media=True', settings)
     .then((response) => response.json())
     .then((response) => {
       const response_data = response.articles
@@ -63,7 +63,7 @@
     })
 
     // Flash News
-    fetch('https://newscatcher.p.rapidapi.com/v1/search_free?q=Politic&lang=en&page=1&page_size=3&media=True', settings)
+    fetch('https://newscatcher.p.rapidapi.com/v1/search_free?q=Politics&lang=en&page=1&page_size=3&media=True', settings)
     .then((response) => response.json())
     .then((response) => {
       const response_data = response.articles
