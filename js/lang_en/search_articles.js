@@ -49,7 +49,12 @@
       })
     
     .catch((error) =>
-      console.error("Something went wrong, please try again later.", error)
+      Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Something went wrong, please try again later!',
+        confirmButtonColor: '#3e8177'
+      }, error)
     );
   };
 })();

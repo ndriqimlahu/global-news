@@ -48,8 +48,13 @@
           .insertAdjacentHTML("afterbegin", response_data);
       })
     
-    .catch((error) =>
-      console.error("Something went wrong, please try again later.", error)
+      .catch((error) =>
+      Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Diçka shkoi keq, ju lutem provoni sërish më vonë!',
+        confirmButtonColor: '#3e8177'
+      }, error)
     );
   };
 })();
