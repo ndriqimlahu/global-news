@@ -10732,8 +10732,8 @@ header .navbar-bottom .navbar-toggler {
 }
 
 .rotate-img:hover img {
-  -webkit-transform: rotate(15deg) scale(1.4);
-  transform: rotate(15deg) scale(1.4);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 footer {
