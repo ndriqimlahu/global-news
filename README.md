@@ -1,165 +1,116 @@
-<!-- PROJECT LOGO -->
-<p align="center">
-  <img src="https://github.com/ndriqimlahu/ndriqim-lahu-portfolio/blob/main/assets/portfolio/GlobalNews.png" alt="Logo" width="250" height="250">
-  <h3 align="center">Global News</h3>
-  <p align="center">
-    Ndriçim Lahu
-    <br>
-    <br>
-    <a href="https://ndriqimlahu.github.io/global-news/">View Website</a>
-    ·
-    <a href="https://github.com/ndriqimlahu/global-news/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/ndriqimlahu/global-news/issues">Request Feature</a>
-  </p>
-</p>
+# Global News
 
+**Global News** is a website designed to deliver the latest articles across a wide range of news categories, catering to diverse interests and preferences. By offering multilingual support and an intuitive design, the platform ensures that users from various backgrounds can access news content comfortably. Whether it's global events, politics, entertainment, technology, or sports, this website is committed to keeping users connected to the world around them.
 
-<!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#support">Support</a></li>
-  </ol>
-</details>
+This project provides a platform that blends timely news delivery with a user-friendly interface, making it easy for users to explore topics that matter most to them. From breaking headlines to in-depth articles, the website offers a seamless browsing experience, enabling users to stay informed about current events effortlessly. It prioritizes accessibility, ensuring users can navigate content smoothly across devices and stay updated wherever they are.
 
+## Built With
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+This website was developed using the following technologies:
+- **HTML**
+- **CSS**
+- **Sass**
+- **Bootstrap**
+- **JavaScript**
 
-The project called `Global News` is an website which aims to display dynamic data in portal by providing the latest news for different categories. This website is simple to use, as all you need is to open it and explore the menu categories which provide data from API, such as news. In this website you can navigate into different pages which are “Home”, “About Us”, “Contact Us”, “News”, “World”, “Politics”, “Finance”, “Economics”, “Business”, “Sport”, “Beauty”, “Music”, “Food”, “Travel”, “Tech”, “Science”, “Fun” and “Search”.
+## Features
 
-This project started from scratch where I worked and completed, also I made some improvements in the front-end side of Web Development, such as creating of the API endpoint for news data, fetching data from API for all News category, developing and designing all News pages with data, handling the API for News data, developing and designing the banner, cards and many other components with data, providing data on specific page as much as it can, developing and designing the Search page with functionality to filter data and then get all the required results, also all pages are supporting two different languages such as English and Albanian by using a flag dropdown, full compatibility with all screen sizes and responsive design, also more functionalities such as smooth scroll and scroll up experience, adding transitions to animation in different area and many more things.
+✅ **Comprehensive News Coverage:** Provides a wide range of news categories, including World, Politics, Finance, Business, Sports, Entertainment, Technology, and more.
 
+✅ **Real-Time Updates:** Regularly updates content to provide the latest articles on breaking news and developments across multiple industries, ensuring that users stay informed in real time.
 
-### Built With
+✅ **Multilingual Support:** Offers content in both English and Albanian, allowing a broader audience to stay informed, regardless of their language preference.
 
-This website is based on technologies like below:
+✅ **Search Functionality:** Allows users to quickly find specific news articles or topics with a built-in search feature, complete with filters and search results for precise browsing.
 
-* HTML5
-* CSS3
-* Sass
-* Bootstrap
-* JavaScript
+✅ **Error Handling:** Ensures a smooth user experience by effectively managing any potential errors, such as missing pages (404), and providing clear messages to guide users back to the right content.
 
+✅ **Contact & About:** Provides easy access to the "Contact Us" and "About Us" pages, offering users relevant information about the platform and enabling them to reach out for inquiries or feedback.
 
-<!-- GETTING STARTED -->
-## Getting Started
+✅ **Responsive Design:** Fully responsive design that adjusts seamlessly across all devices, providing a smooth browsing experience whether accessed on a smartphone, tablet, or desktop.
 
-By getting started with the project, first you need to take a look at the required `Prerequisites` and after that the `Installation` steps.
+## Installation
 
-
-### Prerequisites
-
-In order to open this website is required to have an IDE or Code Editor (Visual Studio Code) and an Browser (Google Chrome).
-
-
-### Installation
-
-1. Download the code or Clone the repo:
-   ```terminal
+1. Clone or download the repository to your local machine:
+   ```
    git clone https://github.com/ndriqimlahu/global-news.git
    ```
-2. Open the repo folder with your IDE or Code Editor.
-3. Launch the website with your Browser by clicking in the `index.html` file.
-4. Also you can open the other pages which are with extension `.html` file.
+2. Navigate to the repository folder on your local machine.
+3. Open the `index.html` file in any modern web browser to view the website locally.
 
+## Screenshots
 
-<!-- USAGE -->
-## Usage
+Below you can see some additional useful screenshots of what the website looks like and how it can be used:
 
-There you can see some useful additional screenshots of how the project looks like and how can be used.
+- Home page | About Us page
+<div>
+   <img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/01.1-Home%20page%20(Latest%20News).png" align="top" width="48%" height="auto">
+   <img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/02-About%20Us%20page%20(History).png" align="top" width="48%" height="auto">
+   <hr>
+</div>
 
-* Home page (Latest News)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/01.1-Home%20page%20(Latest%20News).png">
+- Contact Us page | Search page — Search Filters
+<div>
+   <img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/03-Contact%20Us%20page%20(Form).png" align="top" width="48%" height="auto">
+   <img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/04.1-Search%20page%20(Search%20Filters).png" align="top" width="48%" height="auto">
+   <hr>
+</div>
 
-* Home page (Footer)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/01.2-Home%20page%20(Footer).png">
+- Search page — Search Results | News page
+<div>
+   <img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/04.2-Search%20page%20(Search%20Results).png" align="top" width="48%" height="auto">
+   <img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/05.1-News%20page%20(Latest%20Articles).png" align="top" width="48%" height="auto">
+   <hr>
+</div>
 
-* About Us page (History)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/02-About%20Us%20page%20(History).png">
+- World page | Politics page
+<div>
+   <img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/05.2-World%20page%20(Latest%20Articles).png" align="top" width="48%" height="auto">
+   <img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/05.3-Politics%20page%20(Latest%20Articles).png" align="top" width="48%" height="auto">
+   <hr>
+</div>
 
-* Contact Us page (Form)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/03-Contact%20Us%20page%20(Form).png">
+- Finance page | Economics page
+<div>
+   <img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/05.4-Finance%20page%20(Latest%20Articles).png" align="top" width="48%" height="auto">
+   <img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/05.5-Economics%20page%20(Latest%20Articles).png" align="top" width="48%" height="auto">
+   <hr>
+</div>
 
-* Search page (Search Filters)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/04.1-Search%20page%20(Search%20Filters).png">
+- Business page | Science page
+<div>
+   <img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/05.6-Business%20page%20(Latest%20Articles).png" align="top" width="48%" height="auto">
+   <img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/05.7-Science%20page%20(Latest%20Articles).png" align="top" width="48%" height="auto">
+   <hr>
+</div>
 
-* Search page (Search Results)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/04.2-Search%20page%20(Search%20Results).png">
+- Sport page | Tech page
+<div>
+   <img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/05.8-Sport%20page%20(Latest%20Articles).png" align="top" width="48%" height="auto">
+   <img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/05.9-Tech%20page%20(Latest%20Articles).png" align="top" width="48%" height="auto">
+   <hr>
+</div>
 
-* News page (Latest Articles)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/05.1-News%20page%20(Latest%20Articles).png">
+- Beauty page | Music page
+<div>
+   <img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/05.10-Beauty%20page%20(Latest%20Articles).png" align="top" width="48%" height="auto">
+   <img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/05.11-Music%20page%20(Latest%20Articles).png" align="top" width="48%" height="auto">
+   <hr>
+</div>
 
-* World page (Latest Articles)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/05.2-World%20page%20(Latest%20Articles).png">
+- Food page | Travel page
+<div>
+   <img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/05.12-Food%20page%20(Latest%20Articles).png" align="top" width="48%" height="auto">
+   <img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/05.13-Travel%20page%20(Latest%20Articles).png" align="top" width="48%" height="auto">
+   <hr>
+</div>
 
-* Politics page (Latest Articles)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/05.3-Politics%20page%20(Latest%20Articles).png">
+- Fun page | 404 page
+<div>
+   <img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/05.14-Fun%20page%20(Latest%20Articles).png" align="top" width="48%" height="auto">
+   <img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/06-404%20page%20(Page%20Not%20Found).png" align="top" width="48%" height="auto">
+</div>
 
-* Finance page (Latest Articles)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/05.4-Finance%20page%20(Latest%20Articles).png">
-
-* Economics page (Latest Articles)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/05.5-Economics%20page%20(Latest%20Articles).png">
-
-* Business page (Latest Articles)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/05.6-Business%20page%20(Latest%20Articles).png">
-
-* Science page (Latest Articles)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/05.7-Science%20page%20(Latest%20Articles).png">
-
-* Sport page (Latest Articles)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/05.8-Sport%20page%20(Latest%20Articles).png">
-
-* Tech page (Latest Articles)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/05.9-Tech%20page%20(Latest%20Articles).png">
-
-* Beauty page (Latest Articles)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/05.10-Beauty%20page%20(Latest%20Articles).png">
-
-* Music page (Latest Articles)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/05.11-Music%20page%20(Latest%20Articles).png">
-
-* Food page (Latest Articles)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/05.12-Food%20page%20(Latest%20Articles).png">
-
-* Travel page (Latest Articles)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/05.13-Travel%20page%20(Latest%20Articles).png">
-
-* Fun page (Latest Articles)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/05.14-Fun%20page%20(Latest%20Articles).png">
-
-* 404 page (Page Not Found)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/global-news/main/preview/06-404%20page%20(Page%20Not%20Found).png">
-
-
-<!-- LICENSE -->
-## License
-
-See the `LICENSE` file for more information.
-
-
-<!-- SUPPORT -->
 ## Support
 
-Issues and feature requests are welcome!
-
-Give a ⭐️ if you liked this project!
-
-Support the author on <a href="https://www.buymeacoffee.com/ndriqimlahu">Buy Me a Coffee</a>
+If you find this project useful, please consider giving it a star!
